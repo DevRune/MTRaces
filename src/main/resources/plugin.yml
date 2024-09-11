@@ -1,0 +1,14 @@
+name: MTRaces
+version: '${project.version}'
+main: com.rune.mtraces.MTRaces
+api-version: '1.19'
+depend: [MTVehicles, WorldGuard]
+commands:
+  track:
+    description: Track management commands
+    usage: /<command> [args]
+    permission: mtraces.command.track
+  race:
+    description: Race hosting commands
+    usage: /<command> [args]
+    permission: mtraces.command.race
